@@ -3250,6 +3250,11 @@ dotenv@^8.2.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
 
+draggable@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/draggable/-/draggable-4.2.0.tgz#149c0ca176df6d8b512048c8e451f499fc047b9a"
+  integrity sha1-FJwMoXbfbYtRIEjI5FH0mfwEe5o=
+
 dropzone@^5.5.1:
   version "5.7.6"
   resolved "https://registry.yarnpkg.com/dropzone/-/dropzone-5.7.6.tgz#a5ebb603ea2aaf630118c37a7be59bb3444ad6e1"
@@ -8148,6 +8153,11 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
+
+vue-twentytwenty@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/vue-twentytwenty/-/vue-twentytwenty-0.10.1.tgz#985a1fe704bae3bdfe25a0e53f700200727cfa49"
+  integrity sha512-QyfmJ5agedN3rbNZwhKLQFTSScGXReaI6FIHtoCm0kyPgm7n0IzoMg1opXXz+SRCFXm7jjxOArtQta9Nv9u+cQ==
 
 vue2-dropzone@^3.6.0:
   version "3.6.0"
