@@ -90,17 +90,17 @@
           </div>
         </section>
         <section id="about-nn-section" class="section">
-          <h1 class="section-title column is-half-desktop is-full-touch">
+          <h1 class="section-title has-text-centered mb-3">
             Как работает наша нейросеть?
           </h1>
-          <h2 class="subtitle pl-3">
+          <h2 class="subtitle pl-3 has-text-justified">
             От других нейросетей, работающих с изображениями, наша отличается
             тем, что для неё важно расположение пикселей. У раскрашивающих
             нейросетей размер изображения или соотношение сторон остаётся
             неизменным. А у сетей других типов изображение искажается по мере
             приближения к окончательной версии.
           </h2>
-          <h2 class="subtitle pl-3">
+          <h2 class="subtitle pl-3 has-text-justified">
             Слой пулинга с функцией максимума, применяемый в классифицирующих
             сетях, увеличивает плотность информации, но при этом искажает
             картинку. Он оценивает только информацию, а не макет изображения. А
@@ -108,7 +108,7 @@
             используем шаг 2 (stride of 2). Плотность информации тоже
             увеличивается, но картинка не искажается.
           </h2>
-          <h2 class="subtitle pl-3">
+          <h2 class="subtitle pl-3 has-text-justified">
             Также наша нейросеть отличается от прочих слоями повышения
             дискретизации (upsampling) и сохранением соотношения сторон
             изображения. Классифицирующие сети заботятся только об итоговой
@@ -136,18 +136,18 @@
           ></image-compare>
         </section>
         <section id="about-us-section" class="section">
-          <h1 class="section-title column is-half-desktop is-full-touch">
+          <h1 class="section-title has-text-centered mb-3">
             Наша команда
           </h1>
           <div class="columns">
-            <div class="column is-4">
+            <div class="column is-offset-1 is-4">
               <figure class="image">
                 <img src="./assets/images/kats.jpg" />
               </figure>
               <h1 class="title mt-5 dark-link">Кацевалов Артем</h1>
               <h2 class="subtitle dark-link">Backend и Frontend разработчик</h2>
             </div>
-            <div class="column is-4 is-offset-4">
+            <div class="column is-4 is-offset-2">
               <figure class="image">
                 <img src="./assets/images/uzbek.jpg" />
               </figure>
