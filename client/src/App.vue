@@ -94,7 +94,26 @@
             Как работает наша нейросеть?
           </h1>
           <h2 class="subtitle pl-3">
-            Описание работы нейросети.
+            От других нейросетей, работающих с изображениями, наша отличается
+            тем, что для неё важно расположение пикселей. У раскрашивающих
+            нейросетей размер изображения или соотношение сторон остаётся
+            неизменным. А у сетей других типов изображение искажается по мере
+            приближения к окончательной версии.
+          </h2>
+          <h2 class="subtitle pl-3">
+            Слой пулинга с функцией максимума, применяемый в классифицирующих
+            сетях, увеличивает плотность информации, но при этом искажает
+            картинку. Он оценивает только информацию, а не макет изображения. А
+            в раскрашивающих сетях для уменьшения ширины и высоты вдвое мы
+            используем шаг 2 (stride of 2). Плотность информации тоже
+            увеличивается, но картинка не искажается.
+          </h2>
+          <h2 class="subtitle pl-3">
+            Также наша нейросеть отличается от прочих слоями повышения
+            дискретизации (upsampling) и сохранением соотношения сторон
+            изображения. Классифицирующие сети заботятся только об итоговой
+            классификации, поэтому постепенно уменьшают размер и качество
+            картинки по мере её прогона через нейросеть.
           </h2>
           <image-compare
             before="https://psv4.userapi.com/c520036/u144579648/docs/d10/3d7df2ff482a/ChB.jpg?extra=8qJGAnU7-tKLm3ZfOGMyozYEf3vbwkPrSElj6yh_qpWsWq0R8rFbNcKeBJUMpgZT_Gbw53-I-5Rbe9EmNdZtkD4lFAGG_HDa-sMh-mGyttkqVBKkCjLlceXgF6yzpjsDJ8-UB0kwgDsc1C7rGDeFEn4"
@@ -126,14 +145,16 @@
                 <img src="./assets/images/kats.jpg" />
               </figure>
               <h1 class="title mt-5 dark-link">Кацевалов Артем</h1>
-              <h2 class="subtitle dark-link">Разработчик</h2>
+              <h2 class="subtitle dark-link">Backend и Frontend разработчик</h2>
             </div>
             <div class="column is-4 is-offset-4">
               <figure class="image">
                 <img src="./assets/images/uzbek.jpg" />
               </figure>
               <h1 class="title mt-5 dark-link">Амуров Артем</h1>
-              <h2 class="subtitle dark-link">Дизайнер и менеджер</h2>
+              <h2 class="subtitle dark-link">
+                Дизайнер и разработчик нейросети
+              </h2>
             </div>
           </div>
         </section>
@@ -141,7 +162,7 @@
           <div class="column is-6">
             <h1 class="section-title">
               Нашли ошибку или знаете, как улучшить наш сервис? Тогда,
-              пожайлуста, оставьте свою почту
+              пожалуйста, оставьте свою почту
             </h1>
             <div>
               <input
@@ -435,7 +456,7 @@ html {
 }
 .bottom-border {
   box-shadow: 0px 0px 4px 1px darkgray;
-  transition: .2s;
+  transition: 0.2s;
 }
 .dark-link {
   color: #1f2c58 !important;
