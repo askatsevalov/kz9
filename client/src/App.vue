@@ -375,7 +375,6 @@ export default {
         return;
       }
       this.showNavbarShadow = currentScrollPosition > 0;
-      console.log(this.showNavbarShadow);
     },
     start() {
       this.readyToColorize = false;

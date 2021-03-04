@@ -19,6 +19,6 @@ COPY --from=build-env /app/publish .
 
 # Install python and requirements
 RUN apt-get update -y && apt-get install python3 python3-pip -y
-RUN pip3 install -r ./Colorizer/requirements.txt
+RUN pip3 install --default-timeout=100 -r ./Colorizer/requirements.txt
 
 ENTRYPOINT ["dotnet", "Server.dll"]

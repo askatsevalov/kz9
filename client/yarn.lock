@@ -8113,6 +8113,11 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
+vue-image-compare@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/vue-image-compare/-/vue-image-compare-0.6.1.tgz#9e4d9646dd22a1024640ed81e0f52bf98adac7e2"
+  integrity sha1-nk2WRt0ioQJGQO2B4PUr+Yrax+I=
+
 "vue-loader-v16@npm:vue-loader@^16.1.0":
   version "16.1.2"
   resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-16.1.2.tgz#5c03b6c50d2a5f983c7ceba15c50d78ca2b298f4"
@@ -8153,11 +8158,6 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
-
-vue-twentytwenty@^0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/vue-twentytwenty/-/vue-twentytwenty-0.10.1.tgz#985a1fe704bae3bdfe25a0e53f700200727cfa49"
-  integrity sha512-QyfmJ5agedN3rbNZwhKLQFTSScGXReaI6FIHtoCm0kyPgm7n0IzoMg1opXXz+SRCFXm7jjxOArtQta9Nv9u+cQ==
 
 vue2-dropzone@^3.6.0:
   version "3.6.0"

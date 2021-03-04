@@ -12,6 +12,7 @@
     "core-js": "^3.6.5",
     "draggable": "^4.2.0",
     "vue": "^2.6.11",
+    "vue-image-compare": "^0.6.1",
     "vue2-dropzone": "^3.6.0"
   },
   "devDependencies": {

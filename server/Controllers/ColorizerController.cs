@@ -39,7 +39,7 @@ namespace Controllers
             return Ok(result);
         }
 
-        [DisableRequestSizeLimit]
+        
         [HttpPost("")]
         public async Task<ActionResult<Photo>> UploadPhoto()
         {
